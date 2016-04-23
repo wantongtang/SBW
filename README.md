@@ -10,22 +10,21 @@
 
 1) 使用 root 账号登录 Linux 服务器。
 
-2）执行一键安装脚本：
-
-授权码： 授权码：0668 
+2）执行一键安装脚本：  
+授权码： 授权码：0668   
 
 常规VPS安装脚本（已修复启动问题）：
 
-wget http://sbwml.cn/openvpn && bash openvpn
-
+>wget http://sbwml.cn/openvpn && bash openvpn
+  
 网易蜂巢安装脚本：
 
-wget http://sbwml.cn/vpn163 && bash vpn163
+>wget http://sbwml.cn/vpn163 && bash vpn163
 
 阿里云/腾讯云Centos7.0 （支持http代理转接）：
 代码加密，暂不支持蜂巢服务器
 
-wget http://sbwml.cn/vpnhttp && bash vpnhttp
+>wget http://sbwml.cn/vpnhttp && bash vpnhttp
 
 如果提示出错 bash: wget: command not found 请执行 yum install -y wget
 
@@ -45,7 +44,6 @@ TLS密钥：ta.key
 
 :)
 
-
 ##安装OpenVPN程序
 Apple ID：1335538902@qq.com
 密码：Aa20162016
@@ -61,11 +59,10 @@ OpenVPN 内点击添加新配置文件，并链接VPN。
 ##创建账号（终端执行）：
 echo 账号 密码 >>/passwd
 创建示例：echo 123 456 >>/passwd
-（账号：123 密码:456）
-查看账号列表（终端执行）：cat /passwd 
-教程仅供个人用户使用，禁止商业用途
+（账号：123 密码:456）  
+查看账号列表（终端执行）：cat /passwd
 
-
+教程仅供个人用户使用，禁止商业用途.
 内置移动4G 模式，尽情测试去吧！
 免流代码在OpenVPN.ovpn文件内，可自行进行修改！
 
